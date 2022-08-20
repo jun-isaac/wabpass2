@@ -1,0 +1,292 @@
+/* reset */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.clearfix::after {
+	clear: both;
+	content: '';
+	display: table;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+	/* outline: 2px solid red; */
+}
+
+/* style */
+
+/* header 영역 */
+
+header {
+	width: 200px;
+	height: 650px;
+	/* outline: 2px solid red; */
+	position: relative;
+	float: left;
+	background: rgb(71, 137, 71);
+	z-index: 88;
+}
+
+header img {
+	position: absolute;
+	top: 20px;
+}
+
+
+/* nav 영역 */
+
+.nav {
+	/* outline: 2px solid red; */
+	position: absolute;
+	top: 120px;
+	left: 10px;
+	width: 180px;
+	background: #444;
+	text-align: center;
+	line-height: 50px;
+}
+
+.depth1>li {
+	/* outline: 2px solid red; */
+}
+
+.depth1>li:hover {
+	background: #222;
+}
+
+.depth1 li a {
+	color: #fff;
+	font-size: 24px;
+	font-weight: bold;
+	display: block;
+	line-height: 50px;
+}
+
+.depth2 {
+	display: none;
+	position: absolute;
+	height: 200px;
+	width: 180px;
+	left: 180px;
+	top: 0;
+	background: #777;
+}
+
+.depth2>li {
+	background: #777;
+}
+
+.depth2>li:hover {
+	background: #555;
+}
+
+/* slide 영역 */
+
+.slide {
+	position: relative;
+	width: 800px;
+	height: 350px;
+	float: left;
+	overflow: hidden;
+	/* outline: 2px solid red; */
+}
+
+.slider li {
+	position: absolute;
+}
+
+/* col-box 영역 */
+.col-box {
+	width: 800px;
+	height: 200px;
+	float: left;
+	/* outline: 2px solid red; */
+	/* background: #000; */
+	display: flex;
+}
+
+.col-button {
+	display: flex;
+}
+
+.notice-btn {
+	width: 80px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background: #ddd;
+	font-size: 20px;
+	outline: 1px solid #000;
+	border-radius: 5px 5px 0 0;
+	margin-right: 5px;
+}
+
+.notice-btn.on {
+	background: #bbb;
+}
+
+.col1 {
+	/* outline: 2px solid red; */
+	width: 300px;
+	height: 200px;
+	padding: 10px;
+	position: relative;
+}
+
+.notice {
+	display: none;
+}
+
+.notice.on {
+	display: block;
+}
+
+.notice ul {
+	margin-top: 10px;
+}
+
+.notice ul li {
+	line-height: 30px;
+}
+
+.date {
+	position: absolute;
+	right: 10px;
+}
+
+.modal {
+	position: absolute;
+	width: 500px;
+	height: 300px;
+	background: #fff;
+	border-radius: 10px;
+	padding: 20px;
+	border: 2px solid #000;
+	top: 100px;
+	left: 400px;
+	display: none;
+}
+
+.modal.on {
+	display: block;
+}
+
+.modal h1 {
+	margin-bottom: 10px;
+}
+
+.modal hr {
+	margin-bottom: 20px;
+}
+
+.modal p{
+	line-height: 30px;
+}
+
+.close {
+	width: 80px;
+	height: 40px;
+	border: 1px solid #000;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 8px;
+	background: #ddd;
+	position: absolute;
+	right: 30px;
+	bottom: 30px;
+}
+
+.col2 {
+	/* outline: 2px solid red; */
+	width: 250px;
+	height: 200px;
+	position: relative;
+}
+
+.gallery-btn {
+	width: 80px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background: #ddd;
+	font-size: 20px;
+	outline: 1px solid #000;
+	border-radius: 5px 5px 0 0;
+}
+
+.gallery-btn.on {
+	background: #bbb;
+}
+
+.gallery {
+	display: none;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+.gallery.on {
+	display: flex;
+}
+
+.col3 {
+	/* outline: 2px solid red; */
+	width: 250px;
+	height: 200px;
+	position: relative;
+}
+
+/* footer 영역 */
+
+footer {
+	width: 800px;
+	height: 100px;
+	float: left;
+	outline: 2px solid red;
+	display: flex;
+	background: rgb(176, 219, 176);
+}
+
+.copy {
+	width: 550px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.rfooter {
+	width: 250px;
+	height: 100px;
+	position: relative;
+	/* display: flex; */
+}
+
+.sns {
+	padding: 5px;
+	width: 250px;
+	height: 70px;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+select {
+	width: 200px;
+	height: 30px;
+	position: absolute;
+	left: 20px;
+}
