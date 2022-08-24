@@ -181,6 +181,7 @@ header img {
 	top: 100px;
 	left: 400px;
 	display: none;
+	z-index: 99;
 }
 
 .modal.on {
