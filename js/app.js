@@ -1,3 +1,5 @@
+
+// 메뉴 슬라이드
 $(function () {
 	$('.depth1 > li').hover(
 		function () {
@@ -15,6 +17,8 @@ $(function () {
 	)
 })
 
+
+// 이미지 슬라이드
 $(function () {
 	$('.slider > ul > li')
 		.eq(0)
@@ -40,6 +44,8 @@ $(function () {
 })
 
 
+
+// notice 버튼 클릭 시
 $(function () {
 	$('.notice-btn').click(
 		function () {
@@ -55,6 +61,7 @@ $(function () {
 	)
 })
 
+// gallery 버튼 클릭 시
 $(function () {
 	$('.gallery-btn').click(
 		function () {
@@ -72,7 +79,7 @@ $(function () {
 
 
 
-
+// modal 버튼 클릭 시
 $(function () {
 	$('.click-modal').click(
 		function () {
@@ -82,6 +89,8 @@ $(function () {
 	)
 })
 
+
+// 닫기 버튼 클릭 시
 $(function () {
 	$('.close').click(
 		function () {

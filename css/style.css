@@ -78,12 +78,14 @@ header img {
 
 .depth2 {
 	display: none;
+	background: #777;
+
+	/* 이 부분 지울시 메뉴 아래로 나옴 */
 	position: absolute;
 	height: 200px;
 	width: 180px;
 	left: 180px;
 	top: 0;
-	background: #777;
 }
 
 .depth2>li {
